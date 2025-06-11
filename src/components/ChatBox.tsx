@@ -2,7 +2,6 @@ import React, { useState, useRef, useEffect } from 'react';
 import { Button, Input } from 'react-vant';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPaperPlane, faSpinner } from '@fortawesome/free-solid-svg-icons';
-import { useQuery } from '@tanstack/react-query';
 import { fetchDeepSeekResponse } from '../api/deepseek';
 import ReactMarkdown from 'react-markdown'; // 新增
 import '../styles/chat.css';
