@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'https://yz20250606.top/api';
+const API_URL = 'https://yz20250606.top/api/chat';
 
 export const fetchDeepSeekResponse = async (prompt: string) => {
   try {
